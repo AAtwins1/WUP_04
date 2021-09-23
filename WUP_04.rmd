@@ -70,7 +70,7 @@ model1 <- aov(WORDSUM~DEGREE,data=ourdata)
 summary.aov(model1)
 ```
         
-The inferential results shows a p-value of 0.000236. Which represents the chances that we could get the data under the same conditions, resulting that there is no difference between each degree. According to the data, there seems to be a difference.          
+The inferential results shows a p-value of 0.000236. Which represents the chances that we could get the data under the same conditions, resulting that there is no difference between each degree. According to the data, there seems to be a difference. Therefore, we reject the null hypothesis.      
       
 # Discussion and Conclusion
 
