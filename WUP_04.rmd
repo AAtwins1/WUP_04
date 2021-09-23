@@ -26,6 +26,14 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+We first need to take a look at the data to attain the correct helper file. Then, we will upload the data and examine what results we are given.  
+
+```{r}
+ourdata<- read.csv(file="GSScsv.csv")
+```
+
+According to what we saw in ourdata, WORDSUM is a numerical variable and DEGREE is a factor variable. Which means we will need to upload the numerical~categorical helper file.  
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
